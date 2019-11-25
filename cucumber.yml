@@ -1,4 +1,4 @@
-#YAML Template
+# Plataform
 default: -p html_report -p json_report -p chrome
 web: -p default PLATAFORM=web
 api: -p default PLATAFORM=api
