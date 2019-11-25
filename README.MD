@@ -2,6 +2,12 @@
 
 https://github.com/allanwdr/TesteAutomacao
 
+# Pré-condição
+
+1. Deve ter a linguagem de programação Ruby instalado na máquina
+2. Deve ter a gem bundler instalado na máquina
+3. Acessar a pasta raiz do projeto e executar o comando bundle via linha de comando
+
 # Drivers
 
 Antes de todar algum cenário Web você deve adicionar o driver do navegador na estrutura `features\support\drivers`
@@ -9,10 +15,12 @@ Antes de todar algum cenário Web você deve adicionar o driver do navegador na 
 # Uso
 
 Para executar algum cenário Web, basta mandar o comando:
-comando: cucumber -t <TAG> -p <WEB>
+`cucumber -t <TAG> -p <WEB>`
 
 Para executar algum cenário de API, basta mandar o comando:
-comando: cucumber -t <TAG> -p <API>
+`cucumber -t <TAG> -p <API>`
+
+Obs.: DEVE OBRIGATORIAMENTE SER PASSADO A PLATAFORMA (api ou web) NA CHAMADA DO CENÁRIO
 
 # Mapeamento
 
