@@ -5,7 +5,6 @@
 /coverage/
 /doc/
 /pkg/
-/reports/
 /.config
 /vendor/bundle
 /lib/bundler/man/
