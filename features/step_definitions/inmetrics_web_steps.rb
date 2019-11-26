@@ -4,13 +4,11 @@ Dado("que acesso a home do site da Inmetrics") do
 end
 
 Quando("desço até a sessão de {string}") do |sessao|
-  sleep 1
   $inmetrics.home.wait_until_h2_carreiras_session_visible
   scroll_to sessao.eql?('Carreiras') ? $inmetrics.home.h2_carreiras_session : $inmetrics.home.div_quem_somos
 end
 
 Quando("clico no link {string}") do |link|
-  sleep 1
   if link.eql?('confira nossas vagas')
     $inmetrics.home.a_vagas.click
   else
