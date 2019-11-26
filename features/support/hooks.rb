@@ -1,10 +1,10 @@
 $inmetrics = Inmetrics::Pages.new
 
-Before do
+Before('@web') do
   Capybara.current_session.driver.browser.manage.window.maximize
 end
 
-After do |scenario|
+After('@web') do |scenario|
   scenario.name.gsub(/[^\w\s]/, '').tr(' ', '_')
 
   printscreen(scenario.name.downcase, scenario.failed? ? 'failed' : 'passed')

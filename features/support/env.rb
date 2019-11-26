@@ -4,6 +4,7 @@ require 'capybara/cucumber'
 require 'site_prism'
 require 'rspec'
 require 'pry'
+require 'httparty'
 require 'ffi' if Gem.win_platform?
 
 Dir[File.join(File.dirname(__FILE__), './**/*.rb')].sort.each { |file| require file }
