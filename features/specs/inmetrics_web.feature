@@ -17,6 +17,6 @@ Funcionalidade: Prova funcional de teste automatizado web no site da Inmetrics
     Então validar que é encaminhado para cenário "<tipo>"
 
     Exemplos:
-    | tipo     | titulo     | link                    |
+    | tipo     | sessao     | link                    |
     | positivo | Carreiras  | confira nossas vagas    |
     | negativo | Quem Somos | Ver Produtos & Serviços |
