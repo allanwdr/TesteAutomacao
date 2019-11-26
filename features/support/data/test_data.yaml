@@ -2,3 +2,8 @@ web_data:
   title:
     inmetrics: 'Home - Inmetrics'
     gupy: Inmetrics
+
+api_data:
+  http_status_code:
+    ok: 200
+    created: 201
