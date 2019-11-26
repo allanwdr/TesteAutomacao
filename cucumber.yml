@@ -1,5 +1,5 @@
 # Plataform
-default: -p html_report -p json_report -p chrome
+default: -p html_report -p json_report -p firefox
 web: -p default PLATAFORM=web
 api: -p default PLATAFORM=api
 api_log: -p http_log -p api

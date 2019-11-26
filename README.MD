@@ -10,7 +10,7 @@ https://github.com/allanwdr/TesteAutomacao
 
 # Drivers
 
-Antes de todar algum cenário Web você deve adicionar o driver do navegador na estrutura `features\support\drivers`
+Antes de rodar algum cenário Web você deve adicionar o driver do navegador em uma pasta reconhecida no path do sistema com a versão compatível a versão atual do seu navegador.
 
 # Uso
 
